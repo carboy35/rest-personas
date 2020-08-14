@@ -1,0 +1,26 @@
+package cl.onemarketer.model;
+
+public class Personas {
+	private Integer id;
+	private String name;
+	private String apellidos;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getApellidos() {
+		return apellidos;
+	}
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	
+}
