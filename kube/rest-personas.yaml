@@ -20,5 +20,5 @@ spec:
             - containerPort: 8093
           env:
             - name: MYSQL_URL
-              value: jdbc:mysql://mysql-standalone1:3306/prueba
+              value: jdbc:mysql://mysql:3306/prueba
           imagePullPolicy: Always

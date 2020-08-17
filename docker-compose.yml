@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  mysql-standalone1:
+  mysql:
     image: mysql:8.0.21
     environment:
     - MYSQL_ROOT_PASSWORD=admin
@@ -18,5 +18,5 @@ services:
      context: ./
      dockerfile: Dockerfile
    depends_on:
-     - mysql-standalone1 
+     - mysql
       
